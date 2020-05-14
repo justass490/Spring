@@ -56,6 +56,7 @@ public class controller {
             if (username != null && password != null && email != null){
                 register.executeUpdate();
                 deleterow.executeUpdate();
+                return "login.jsp";
             }else {
                 System.out.println("cant be null");
             }

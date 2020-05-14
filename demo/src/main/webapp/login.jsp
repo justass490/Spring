@@ -2,25 +2,29 @@
 <body>
 <head>
     <style>
-        body{background-color: darkgrey;}
+        body{background-image: url("http://getwallpapers.com/wallpaper/full/8/4/9/419320.jpg")}
+        a{font-family:"Comic Sans MS", cursive, sans-serif; color:#5a005b;}
+        input{font-family:"Comic Sans MS", cursive, sans-serif; border-radius: 10px;}
+        #loginRegister{text-align: right;}
     </style>
 </head>
-<a href="http://localhost:8080/addnew">|Add new location|</a>
-<a href="http://localhost:8080/viewall">|View added locations|</a>
-<a href="http://localhost:8080/register">   |Register|</a>
-<a href="http://localhost:8080/login">|Login|</a>
+
+<div id="loginRegister">
+    <a href="http://localhost:8080/register">|Register|</a>
+    <a href="http://localhost:8080/login">|Login|</a>
+</div>
 
 <form>
     <table>
         <thead>
         <tr>
-            <th>Username</th>
+            <th><a>Username</a></th>
             <th><input type="text" name="username" id="username"/></th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td>Password</td>
+            <td><a>Password</a></td>
             <td><input type="password" name="password" id="password"/></td>
         </tr>
         </tbody>
